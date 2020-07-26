@@ -1,0 +1,82 @@
+theme = "hello-friend-ng"
+baseurl      = "researchcomputingteams.github.io"
+title        = "Research Computing Teams"
+languageCode = "en-us"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Subtitle for home
+  homeSubtitle = "A community for those managing research computing teams"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Research Computing Teams"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/ResearchTeams"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:jonathan@researchcomputingteams.org"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/researchcomputingteams"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/jonathandursi/"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[languages]
+  [languages.en]
+    title = "Research Computing Teams"
+    subtitle = "Because Research Computing Teams are too important to be managed poorly"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "research_computing_teams"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "newsletter"
+    name       = "Newsletter"
+    url        = "/newsletter"
+  [[menu.main]]
+    identifier = "jobboard"
+    name       = "Jobs"
+    url        = "/jobboard"

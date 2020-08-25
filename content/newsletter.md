@@ -22,7 +22,7 @@ input[type=submit] {
 </style>
 
 The RCT Newsletter started in Jan 2020, and covers all aspects of managing
-research computing teams.  You can view previous posts [here](https://buttondown.email/ljdursi/archive/).
+research computing teams.  You can view previous posts [here](https://newsletter.researchcomputingteams.org/archive).
 
 ## The intended audience
 
@@ -61,13 +61,13 @@ a migration from GPU/POSIX/Python to FPGA/Object Store/C++ might well be on topi
 (Jonathan's twitter rants about things like MPI and exascale will **not** be on topic for this newsletter.)
 
 Does this sound interesting?  You can sign up for the [Buttondown-powered](https://buttondown.email) newsletter below, or
-directly at [this link](https://buttondown.email/ljdursi):
+directly at [this link](https://newsletter.researchcomputingteams.org):
 
 <form
   action="https://buttondown.email/api/emails/embed-subscribe/ljdursi"
   method="post"
   target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/ljdursi', 'popupwindow')"
+  onsubmit="window.open('https://newsletter.researchcomputingteams.org', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
   <label for="bd-email">Sign up for the newsletter with your email</label>
@@ -85,7 +85,7 @@ join as I write my way through that process..
 
 **Q: Will the posts be archived anywhere?** <br/>
 A: That wasn't originally the intention, but people seem to prefer it;
-the archives can currently be found [here](https://buttondown.email/ljdursi/archive/).
+the archives can currently be found [here](https://newsletter.researchcomputingteams.org/archive).
 
 **Q: Will my email address get sold/used for anything else?** <br/>
 A: No.  I'll use it only for sending you my thoughts on R&D computing
@@ -126,7 +126,7 @@ I'll keep this list updated with sources that come up in the link roundups.
   action="https://buttondown.email/api/emails/embed-subscribe/ljdursi"
   method="post"
   target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/ljdursi', 'popupwindow')"
+  onsubmit="window.open('https://newsletter.researchcomputingteams.org', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
   <label for="bd-email">Sign up for the newsletter with your email</label>

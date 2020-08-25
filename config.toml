@@ -29,7 +29,7 @@ paginate     = 10
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/ResearchTeams"
+    url  = "https://twitter.com/RCTNewsletter"
 
   [[params.social]]
     name = "email"
@@ -72,11 +72,14 @@ unsafe= true
     identifier = "about"
     name       = "About"
     url        = "/about"
+    weight     = 90
   [[menu.main]]
     identifier = "newsletter"
     name       = "Newsletter"
     url        = "/newsletter"
+    weight     = 100
   [[menu.main]]
     identifier = "jobboard"
     name       = "Jobs"
     url        = "/jobboard"
+    weight     = 110

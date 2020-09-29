@@ -1,4 +1,5 @@
 ---
+layout: board
 title: Jobs Leading Research Computing Teams
 ---
 

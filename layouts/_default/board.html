@@ -1,0 +1,40 @@
+{{ define "main" }}
+  <main class="board">
+
+    <div class="board-info">
+      <p>
+        {{ if .IsTranslated }} | {{ i18n "postAvailable" }}
+          {{ range .Translations }}
+              <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+          {{ end}}
+        {{ end }}
+      </p>
+    </div>
+
+    <article>
+      <h1 class="board-title">
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      </h1>
+
+      {{- if .Params.toc }}
+        <hr />
+        <aside id="toc">
+          <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+          {{ .TableOfContents }}
+        </aside>
+        <hr />
+      {{- end }}
+
+      {{ with .Params.Cover }}
+        <img src="/{{ . }}" class="board-cover" />
+      {{ end }}
+
+      <div class="board-content">
+        {{ .Content }}
+      </div>
+    </article>
+
+    <hr />
+
+  </main>
+{{ end }}

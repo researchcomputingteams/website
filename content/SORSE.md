@@ -2,7 +2,8 @@
 title: "Help, I'm a Research Computing Manager!"
 subtitle: "SORSE 2020 Talk"
 date: 2020-10-03T12:00:00-04:00
-url: SORSE
+slug: SORSE
+url: /SORSE
 draft: false
 ---
 

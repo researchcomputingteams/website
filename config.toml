@@ -3,6 +3,8 @@ baseurl      = "https://www.researchcomputingteams.org/"
 title        = "Research Computing Teams"
 languageCode = "en-us"
 paginate     = 10
+disablePathToLower = true
+
 
 [params]
   dateform        = "Jan 2, 2006"

@@ -15,9 +15,9 @@ You can also download [the PDF of the slides](/pdfs/SORSE2020-BeAGreatManager.pd
 
 ## Resources and next steps
 
-My suggestion would be to start with one-on-ones. Here is a quickstart guide ([PDF](https://www.dursi.ca/assets/quickstart-one-on-ones/quickstart-one-on-one.pdf),
-[epub](https://www.dursi.ca/assets/quickstart-one-on-ones/quickstart-one-on-one.epub)) to starting one-on-ones in the course of a week
-that I wrote at the start of the pandemic when we were all suddenly working from home.
+My suggestion would be to start with one-on-ones. Here is a quickstart guide ([PDF](/pdfs/howto-one-on-ones.pdf),
+[epub](/pdfs/howto-one-on-ones.epub)) to getting starting with one-on-ones.  It lists out daily steps and resources
+to get one-on-ones up and running over the course of a month.
 
 Other resources presesnted in the talk are below -
 
